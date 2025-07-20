@@ -9,6 +9,10 @@ body {
     
 }
 
+html {
+  font-size: 16px; /* 基準となる文字サイズを16pxに設定 */
+}
+
 h1 {
     color: #ffffff;
     background-color: #ff0000; 
@@ -23,7 +27,7 @@ p {
     line-height: 1.6;
     color: #000000;
     font-size: 1.em;
-    height: auto;
+
     
 }
 

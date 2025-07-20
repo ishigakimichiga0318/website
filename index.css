@@ -22,8 +22,9 @@ h1 {
 p {
     line-height: 1.6;
     color: #000000;
-    font-size: 1.0em;
+    font-size: 1.em;
     height: auto;
+    
 }
 
 img {
@@ -41,7 +42,9 @@ img {
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
-
+.responsive-text {
+  font-size: 3vw; /* ビューポート幅の3% */
+}
 
 
 

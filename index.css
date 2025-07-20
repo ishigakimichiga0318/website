@@ -10,7 +10,7 @@ body {
 }
 
 html {
-  font-size: 16px; /* 基準となる文字サイズを16pxに設定 */
+  font-size: 16px; 
 }
 
 h1 {
@@ -32,28 +32,22 @@ p {
 }
 
 img {
-    display: block;        /* 画像をブロック要素として扱います */
-    margin-left: auto;     /* 左マージンを自動調整して中央寄せ */
-    margin-right: auto;    /* 右マージンを自動調整して中央寄せ */
-    /* または、簡潔に以下のように記述できます */
-    /* margin: 20px auto; */ /* 上下に20px、左右を自動にして中央寄せ */
-
-    /* 以前に設定した画像の幅や枠線などのスタイルも残しておきましょう */
-    max-width: 100%;       /* 親要素の幅を超えないようにする */
-    height: auto;          /* アスペクト比を保つ */
-    /* border: 2px solid #ddd; */
-    /* border-radius: 8px; */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    display: block;        
+    margin-left: auto;     
+    margin-right: auto;    
+    max-width: 100%;       
+    height: auto;         
+    
 }
 
 .responsive-text {
-  font-size: 3vw; /* ビューポート幅の3% */
+  font-size: 3vw; 
 }
 
 
 
 .photo-gallery {
-    display: flex; /* この箱の中身を横並びにするぞ！という宣言 */
+    display: flex; 
     
 }
 
@@ -68,7 +62,7 @@ h2 {
 
 h3 {
     color: #ffffff;
-    background-color: #ffbf00; 
+    background-color: #fcbf09; 
     padding: 1rem 2rem; 
     text-align: center;
     border-radius: 0.5rem; 
